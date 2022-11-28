@@ -1,5 +1,5 @@
 import React from "react";
 
 export default function Authentication() {
-  return <>Authentication</>;
+  return <main>Authentication</main>;
 }

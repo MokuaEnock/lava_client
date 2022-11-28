@@ -23,9 +23,13 @@ body {
   justify-content: center;
 }
 
+/* landing ==================================================================== */
+
 main {
   min-height: 45vw;
 }
+
+/* navbar ==================================================================== */
 
 .navbar {
   width: 100%;
@@ -35,7 +39,25 @@ main {
   flex-direction: row;
   align-items: center;
   justify-content: space-evenly;
+  background-color: #E62020;
 }
+
+.navbar>* {
+  text-decoration: none;
+  color: #E62020;
+  width: 12%;
+  border-radius: 4vw;
+  height: 70%;
+  font-size: 1.5vw;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+
+/* footer ==================================================================== */
 
 .footer {
   width: 100%;
