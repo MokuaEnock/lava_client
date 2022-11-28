@@ -1,5 +1,5 @@
 import React from "react";
 
-export default function Auth() {
+export default function Authentication() {
   return <>Authentication</>;
 }
