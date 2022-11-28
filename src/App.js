@@ -5,6 +5,7 @@ import Landing from "./components/pages/landing/landiing";
 import About from "./components/pages/about/about";
 import Contact from "./components/pages/contact/contact";
 import Authentication from "./components/pages/auth/auth";
+import Footer from "./components/pages/footer";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Route path="/contact" element={<Contact />} />
         <Route path="/auth" element={<Authentication />} />
       </Routes>
+      <Footer />
     </BrowserRouter>
   );
 }

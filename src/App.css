@@ -23,6 +23,10 @@ body {
   justify-content: center;
 }
 
+main {
+  min-height: 45vw;
+}
+
 .navbar {
   width: 100%;
   height: 5vw;
@@ -31,4 +35,15 @@ body {
   flex-direction: row;
   align-items: center;
   justify-content: space-evenly;
+}
+
+.footer {
+  width: 100%;
+  height: 20vw;
+  border: thin solid black;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  border: thin solid black;
 }
