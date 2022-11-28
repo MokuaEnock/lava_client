@@ -17,7 +17,7 @@ export default function Landing() {
         <p>It's too late to find Love</p>
         <h1>Love</h1>
         <p>Let's do the finding for you</p>
-        <button>Get Started</button>
+        <button className="get-started">Get Started</button>
       </div>
       <div className="container" id="container2">
         container 2
