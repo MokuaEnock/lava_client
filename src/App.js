@@ -9,6 +9,9 @@ function App() {
       <NavBar />
       <Routes>
         <Route path="/" element={<Landing />} />
+        <Route path="/about" element={<Landing />} />
+        <Route path="/contact" element={<Landing />} />
+        <Route path="/auth" element={<Landing />} />
       </Routes>
     </BrowserRouter>
   );

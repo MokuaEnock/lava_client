@@ -4,11 +4,10 @@ import { NavLink } from "react-router-dom";
 export default function NavBar() {
   return (
     <header className="navbar">
-      <span>Pumpkin</span>
-      <NavLink to="/">Home</NavLink>
-      <NavLink></NavLink>
-      <NavLink></NavLink>
-      <NavLink></NavLink>
+      <NavLink to="/">Pumpkin</NavLink>
+      <NavLink to="/contact">Contact</NavLink>
+      <NavLink to="/about">About</NavLink>
+      <NavLink to="/auth">Log In</NavLink>
     </header>
   );
 }
