@@ -1,0 +1,20 @@
+.landing {
+    width: 100%;
+    height: 45vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: aliceblue;
+}
+
+.container {
+    width: 50%;
+    height: 100%;
+    border: thin solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
